@@ -1,26 +1,25 @@
 # CS 424 Assignment 1
 
 ## Task 1: Observation and Data Collection
-- Topic: Richard J. Daley Library occupancy
-- Location: 1st and 2nd Floor, excluding private area
-- Observation time: Around 4 pm every day
-- Count: One manual count of one floor
-- Collection method: Divide each floor into sections, count - by section, and add them together
-
+- I chose to observe the occupancy of Richard J. Daley Library because I have been there almost every day, and I am interested in how the occupancy of the two main public floors changes at the same crowded time (4 pm) from Monday to Friday. The project focuses on public areas of the 1st and 2nd floors and excludes private rooms. Observations were made at approximately 4 pm to ensure consistent collection from Monday to Friday.
+- One observation represents one manual occupancy count of one floor. For each observation, I recorded the date, time, approximate occupancy count by my method, estimated noise level based on my hearing, and the optional notes when my counting accuracy was affected by high movement. Because this project was done by me alone, all observations were collected by me using the same general procedure.
+- To make my counting process more manageable, I divide each floor into sections, count the occupants in each section, and calculate the sum to estimate the total occupancy of each floor. Each occupant was counted as 1, and a fully occupied four-seat table was counted as 4 to simplify the count.
+- The collection provides the variation across location (1st and 2nd floor), date, and observations collected from Mondays to Fridays. I know the design has many limitations: the private room is inaccessible, and observations were made only at approximately 4 pm because that is the only time I don't have any classes throughout the week. Therefore, the data doesn't represent library occupancy for the entire day. My manual counting process may also miss or double-count occupants who enter, leave, or move between sections. In addition, the noise level measurement is based on my personal feeling rather than an objective sound measurement.
+ 
 ## Initial Question
-1. How does occupancy differ between Floor 1 and Floor 2 at around 4 PM?
-2. Is the difference between Floor 1 and Floor 2 occupancy stable across days?
-3. How does occupancy change across different days?
+1. Difference between the occupancy of the 1st floor and the 2nd floor at 4 pm? 
+2. Do occupancy on the 1st floor and 2nd floor change in a similar trend across 5 days?
+3. How does the perceived noise level relate to the occupancy?
 4. Are there particular days with exceptionally high or low occupancy?
 
 | Attribute | Type | Description | Example |
 |---|---|---|---|
 |date|Temporal|Date of observation|9/21/2026|
-|time|Temporal|Time of observation|4PM|
+|time|Temporal|Time of observation|4 pm|
 |floor|Categorical|Observed library floor|1st|
 |occupancy_count|Quantitative|Approximate number of occupancy|53|
-|noise_level|Ordinal|Overall perceived noise level: Quiet/Moderate/Noisy|Quiet|
-|notes|Text|Unusual condition during the observation|High movement|
+|noise_level|Ordinal|Overall perceived noise level of the floor|Quiet|
+|notes|Text|Optional notes|High movement|
 
 
 ## Task 2: Pilot and Data Collection
