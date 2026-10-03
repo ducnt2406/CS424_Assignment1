@@ -23,7 +23,11 @@ Collection method: Divide each floor into section, count by section and add them
 |notes|Text|Unusual condition during the observation|High movement|
 
 
-## Task 2: Pilot and Data Collection 
+## Task 2: Pilot and Data Collection
+
+### Pilot collection
+I have collected 10 pilot observations across five days (9/21-9/25)
+
 
 ## Task 3: Data description and Domain questions
 
