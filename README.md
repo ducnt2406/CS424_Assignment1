@@ -51,7 +51,7 @@
 4. On which days are the highest and lowest occupancies recorded?
 
 ## Task 4: Task abstractions
-| # | Task Abstraction |
+| Domain question | Task Abstraction |
 |---|---|
 | **1** | **Action:** Compare occupancy values between the first and second floors.<br>**Target:** `occupancy_count` by `floor` and `date`.<br>**Abstract task:** Compare quantitative values across categories and dates. |
 | **2** | **Action:** Compare occupancy patterns across five days.<br>**Target:** `occupancy_count` over `date`, grouped by `floor`.<br>**Abstract task:** Compare temporal patterns across categories. |
