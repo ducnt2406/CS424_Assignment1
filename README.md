@@ -61,7 +61,7 @@
 ## Task 5: Visualization Sketches
 
 ### Sketch 01
-![Sketch 01](sketches\sketch01.png)
+![Sketch 01](sketches/sketch01.png)
 This sketch compares occupancy between the first and second floors across the five collection days. Three attributes used are date, floor, and occupancy_count. Marks are bars, height representing occupancy, and horizontal position representing date and floor. This design makes it easy to compare the two floors but hard to show patterns across the five days.
 
 ## Task 6: Summarizing 
