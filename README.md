@@ -38,15 +38,19 @@
 ## Task 3: Data description and Domain questions
 
 ### Dataset description
-- The final dataset contains 10 observations collected across 5 days from the public area of Richard J. Daley Library at approximately 4 pm. Each observation records the date, floor, approximately occupancy count, noise level, and optional notes. 
-- Occupancy was measured manually by dividing each floor into sections and adding them together to find the final number of occupants. The dataset captures variation between two floors and across 5 days (9/21-9/25). However, it doesn't represent occupancy at other times of day or in a private room. 
-- Because occupants could enter, leave, or move around the area during the counting process, the occupancy values should not be treated as 100% correct. 
+- The final library dataset contains 10 observations collected from 9/21 to 9/25 from the public area of the UIC Richard J. Daley Library's 1st and 2nd floors at approximately 4 pm. Each one records the date, time, floor, approximately occupancy count, noise level, and optional notes. 
+- Every information recorded at 4 pm each collection only and does not include other times or other area. Manual counting may miss or double-count people who not stay at one position during the observation. 
+
 
 ### Reflection on the Data
-- The dataset captures the approximate number of occupants present on the 1st and 2nd Floors, the date and time of observation, and the general noise level. This makes it possible to compare occupancy on the 1st and 2nd Floors and examine how it changes over 5 days. 
-- However, the dataset couldn't capture who the occupants are (students, staff, professors, or TAs), the reason why they are in the library, and how long they stay. It also doesn't represent the occupancy in a private area. Because the counts were collected manually while people were moving, some occupants may have been missed or counted twice. 
+- The collected dataset only captures when and where each observation occurred, how many occupants there were, and the general noise level on the floor. It doesn’t represent who the occupants are (students, TAs, professors, or staff), why they are in the library, what they are doing, or how long they stay. 
 
 ### Final domain questions
+1. How does the occupancy differ between 1st and 2nd floor at 4 pm? 
+2. Do occupancy on the 1st floor and 2nd floor change in a similar trend across 5 days?
+3. How does the perceived noise level relate to the occupancy?
+4. Which collection days have the highest and lowest occupancy?
+
 
 ## Task 4: Task abstractions
 
