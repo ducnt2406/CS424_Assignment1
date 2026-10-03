@@ -26,8 +26,17 @@ Collection method: Divide each floor into section, count by section and add them
 ## Task 2: Pilot and Data Collection
 
 ### Pilot collection
-I have collected 10 pilot observations across five days (9/21-9/25)
+I have collected 10 pilot observations across five days (9/21-9/25).
+Each day, I observed the public area of both Floor 1 and Floor 2 at approximately 4PM
+Occupancy was counted manually by dividing floor into sections and add them together. 
+I add 1 for each occupants and 4 for each fully table.
+The counts are approximately because occupant may enter, leave or move between section during my counting process.
 
+### Pilot reflection and revisions
+Counting floor 1 was easy, but floor 2 was more difficult than I expected because the number of occupancy was much higher and some people keep moving during my counting process.
+Therefore, I divide the floor into sections, which made the counting process easier, manageable and consistent. 
+However, the occupancy counts should be treated as approximately instead of exactly because some people moving.
+The noise_level attribute was hard to estimate, so I defined 3 ordered level: Quiet, Moderate, Noisy to make it more systematic. 
 
 ## Task 3: Data description and Domain questions
 
