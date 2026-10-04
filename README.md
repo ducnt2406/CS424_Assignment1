@@ -1,17 +1,16 @@
 # CS 424 Assignment 1
 
 ## Task 1: Observation and Data Collection
-- I chose to observe the occupancy of Richard J. Daley Library because I have been there many times and interested in how the occupancy of the two main public floors changes at the same crowded time (4 pm) from Monday to Friday. The project focuses on public areas of the first and second floors and excludes private rooms. Observations were made at approximately 4 pm to ensure consistent collection from Monday to Friday.
+- I chose to observe the occupancy of Richard J. Daley Library because I have been there many times and interested in how the occupancy of the two main public floors changes from Monday to Friday. The project focuses on public areas of the first and second floors and excludes private rooms. Observations were made at approximately 4 pm to ensure consistent collection from Monday to Friday.
 - One observation represents one manual occupancy count of one floor. For each observation, I recorded the date, time, approximate occupancy count by my method, estimated noise level based on my hearing, and the optional notes when my counting accuracy was affected by high movement. Because this project was done by me alone, all observations were collected by me using the same general procedure.
-- To make my counting process more manageable, I divide each floor into sections, count the occupants in each section, and calculate the sum to estimate the total occupancy of each floor. Each occupant was counted as 1, and a fully occupied four-seat table was counted as 4 to simplify the count.
-- The collection provides the variation across location (first and second floor), date, and observations collected from Mondays to Fridays. I know the design has many limitations: the private room is inaccessible, and observations were made only at approximately 4 pm because that is the only time I don't have any classes throughout the week. Therefore, the data doesn't represent library occupancy for the entire day. My manual counting process may also miss or double-count occupants who enter, leave, or move between sections. In addition, the noise level measurement is based on my personal feeling rather than an objective sound measurement.
+- The collection provides the variation across location, date, and observations collected from Mondays to Fridays. I know the design has many limitations: the private room is inaccessible, and observations were made only at approximately 4 pm because that is the only time I don't have any classes throughout the week. Therefore, the data doesn't represent library occupancy for the entire day. My manual counting process may also miss or double-count occupants who enter, leave, or move between sections. In addition, the noise level measurement is based on my personal feeling rather than an objective sound measurement.
 
  
 ## Initial Question
 1. Which floor has greater occupancy at 4 pm (first or second)? 
-2. What is the change in the occupancy rate of the first and second floors throughout the week?
-3. What is the relation between the noise level correlated with the floor and occupancy? 
-4. Is there any specific day when occupancy is either abnormally low or high?
+2. How does the occupancy of each floor change throughout the week?
+3. Do noise level and occupancy have a relation or not?
+4. Are there any days with exceptionally high or low occupancy? 
 
 
 | Attribute | Type | Description | Example |
@@ -27,12 +26,12 @@
 ## Task 2: Pilot and Data Collection
 
 ### Pilot collection
-- From Monday 9/21 to Friday 9/25, each day I collected 2 pilot observations of the first and second floors. In each observation, I counted the total number of occupants in the floor's public area. To make this task easier, I counted the number of fully table and the number of individuals, then calculated the total occupants using the formula: individuals + fully table * 4. Because some people could move while I was counting, the occupancy result should be treated as approximate only. 
+- From Monday 9/21 to Friday 9/25, each day I collected two pilot observations, one for each floor. In each observation, I counted the total number of occupants in the floor's public area. To make this task easier, I counted the number of fully occupied 4-seat tables and the number of individuals, and then calculated the total number of occupants. Because some people moved while I was counting, the occupancy result should be treated as approximate only. 
 
 ### Pilot reflection and revisions
-- The pilot showed that the first floor was easy to count because of its small area, while the second floor was more complicated than I expected because the public area is much larger and more crowded. Sometimes the noise distracted me when I was counting. 
+- While the small area makes the first floor very easy to count, the second floor was more complicated than I expected because the public area is much larger and more crowded. Sometimes the noise distracted me when I was counting. 
 - To improve the consistency, I divided the second floor into small sections and applied this method to all the second floor's observations. This made the process more manageable, even though I knew that an error could occur because some occupants were moving between sections. 
-- The noise_level attribute was difficult to estimate consistently, although I estimated it by Decibel X, the number of each measurement attempt was heavily affected by the crowd. To make it more systematic, I defined 3 ordered levels: Quiet, Moderate, Noisy.
+- The noise_level attribute was difficult to estimate consistently. To make it more systematic, I defined 3 ordered levels: Quiet < Moderate < Noisy.
 
 
 ## Task 3: Data description and Domain questions
