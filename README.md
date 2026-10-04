@@ -26,7 +26,7 @@
 ## Task 2: Pilot and Data Collection
 
 ### Pilot collection
-- From Monday 9/21 to Friday 9/25, each day I collected two pilot observations, one for each floor. In each observation, I counted the total number of occupants in the floor's public area. To make this task easier, I counted the number of fully occupied 4-seat tables and the number of individuals, and then calculated the total number of occupants. Because some people moved while I was counting, the occupancy result should be treated as approximate only. 
+- In each observation, I counted the total number of occupants in the floor's public area by counting the number of fully occupied 4-seat tables and the number of individuals, and then calculated the total number of occupants. Because some people moved while I was counting, the occupancy result should be treated as approximate, as I may have missed some people or double-counted others. 
 
 ### Pilot reflection and revisions
 - While the small area makes the first floor very easy to count, the second floor was more complicated than I expected because the public area is much larger and more crowded. Sometimes the noise distracted me when I was counting. 
@@ -41,13 +41,15 @@
 - All information is recorded at 4 pm each collection and does not include other times or other areas. Manual counting may miss or double-count people who do not stay in one position during the observation. 
 
 ### Reflection on the Data
-- Each observation represents one floor at one collection time, with the number of people present recorded as one approximate occupancy value. The data that is collected contains no more information than when and where an observation takes place, how many people were there, and at what noise level the floor was. However, it says nothing about who these people are (students, TAs, professors, or staff), what they do there, or how long they stay.
+- Each observation represents one floor at one collection time, with the number of people present recorded as one approximate occupancy value. The data collected contains no more information than when and where an observation took place, how many people were there, and what the noise level on the floor was. However, it says nothing about who these people are (students, TAs, professors, or staff), what they do there, or how long they stay.
 
 ### Final domain questions
-1. What is the occupancy disparity on each day between two floors? 
+1. What is the occupancy disparity on each day between the two floors? 
 2. Is there a similar pattern between the occupancy of two floors?
 3. Is there a relation between the noise level and occupancy level for each floor?
 4. Which days record the highest and lowest occupancies?
+
+- Questions 1, 2, and 4 use attributes date, floor, and occupancy_count, while Question 3 uses attributes occupancy_count and noise_level to examine their relationship.
 
 ## Task 4: Task abstractions
 | Domain question | Task Abstraction |
@@ -56,7 +58,7 @@
 | **2** | **Action:** Compare occupancy patterns across five days.<br>**Target:** `occupancy_count` over `date`, grouped by `floor`.<br>**Abstract task:** Compare temporal patterns across categories. |
 | **3** | **Action:** Examine the relationship between occupancy and noise level.<br>**Target:** `occupancy_count` and `noise_level`, grouped by `floor`.<br>**Abstract task:** Examine the relationship between a quantitative and an ordinal attribute. |
 | **4** | **Action:** Find the highest and lowest occupancy values.<br>**Target:** `occupancy_count` by `date`.<br>**Abstract task:** Find extrema across temporal categories. |
-- The first and second tasks compare the occupancy and pattern between two floors. The third task examines the relationship between occupancy and noise level. The final task is to find the maximum and minimum occupancy values for each floor. These task abstractions separate the analytical goals from the visualization designs.
+- The first and second tasks compare the occupancy and pattern between two floors. The third task examines the relationship between occupancy and noise level. The final task is to find the maximum and minimum occupancy values. These task abstractions separate the analytical goals from the visualization designs.
 
 ## Task 5: Visualization Sketches
 
@@ -70,7 +72,7 @@
 
 ### Sketch 03
 ![Sketch 03](sketches/sketch03.png)
-- Sketch 03 examines the relationship between occupancy and noise level. Three attributes are floor, occupancy_count, and noise_level. Marks are points that represent the relationship between occupancy and noise level. This design makes the relationship easier to inspect, but the exact occupancy difference between the two floors on each day is less direct than in Sketch 01.
+- Sketch 03 examines the relationship between occupancy and noise level. Three attributes are floor, occupancy_count, and noise_level. Marks are points that represent the relationship between occupancy and noise level. This design makes the relationship easier to inspect, but the large difference in occupancy causes the observations of the first floor to cluster in a small area.
 
 ### Refined 01
 ![Refined 01](sketches/refined01.png)
@@ -86,4 +88,4 @@
 - The initial and refined sketches showed me that each design has both benefits and drawbacks. Not separating floors makes direct comparison easier but harder to visualize, while separating floors makes direct comparison harder but easier to visualize. 
 
 ## Task 7: Collaboration Process
-- I completed the project individually, so I did all observations, data organization, and sketches. I tried to keep the data collection consistent by observing both floors and using the same general method for all observations. During the pilot, I encountered several challenges when collecting data. I initially considered collecting data at both 9 am and 4 pm, but 4 pm was the only time that didn't conflict with my class, so I focused on 4 pm only. Moreover, managing the counting process on the second floor of the UIC Richard J. Daley Library is very difficult, especially during heavy foot traffic. 
+- I completed the project individually, so I did all observations, data organization, and sketches. I tried to keep the data collection consistent by observing both floors and using the same general method for all observations. During the pilot, I encountered several challenges when collecting data. I initially considered collecting data at both 9 am and 4 pm, but 4 pm was the only time that didn't conflict with my classes, so I focused on 4 pm only. Moreover, managing the counting process on the second floor of the UIC Richard J. Daley Library was very difficult, especially during heavy foot traffic. 
