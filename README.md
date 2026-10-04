@@ -72,6 +72,14 @@ This sketch compares the occupancy patterns of the first and second floors acros
 ![Sketch 03](sketches/sketch03.png)
 This sketch examines the relationship between occupancy and noise level. Three attributes used are floor, occupancy_count, and noise_level. Marks are points that represent the relationship between occupancy and noise level. This design makes the relationship easier to inspect, but the first floor observations are clustered because of the large difference in occupancy scale between the first and second floors. 
 
+### Refined 01
+![Refined 01](sketches/refined01.png)
+This sketch is an improved version of sketch 02, separating the two floors into different charts. Three attributes still used are date, floor, and occupancy_count. The separation makes the occupancy pattern of each floor easier to see. 
+
+### Refined 02
+![Refined 02](sketches/refined02.png)
+This sketch is an improved version of sketch 03, separating the two floors into different charts and using a more appropriate occupancy scale for each floor. Three attributes still used are floor, occupancy_count and noise_level. This makes it easier to see the relationship between occupancy and noise level on each floor.
+
 ## Task 6: Summarizing 
 
 ## Task 7: Collaboration Process
