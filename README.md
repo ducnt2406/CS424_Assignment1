@@ -86,4 +86,5 @@
 
 
 ## Task 7: Collaboration Process
+- I completed the project individually, so I did all observations, data organization, and sketches. I tried to keep the data collection consistent by observing both floors at the same time and using the same general method for all observations. During the pilot, I encountered several challenges when collecting data. My original plan is to collect data at 9 am and 4 pm, but 4 pm is the only time I can observe without conflict with any class, so I decided to cancel the 9 am observations. Moreover, managing the counting process on the second floor of the UIC Richard J. Daley Library is very difficult, especially during heavy foot traffic. 
 
