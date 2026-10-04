@@ -1,7 +1,7 @@
 # CS 424 Assignment 1
 
 ## Task 1: Observation and Data Collection
-- I chose to observe the occupancy of Richard J. Daley Library because I have been there almost every day, and I am interested in how the occupancy of the two main public floors changes at the same crowded time (4 pm) from Monday to Friday. The project focuses on public areas of the first and second floors and excludes private rooms. Observations were made at approximately 4 pm to ensure consistent collection from Monday to Friday.
+- I chose to observe the occupancy of Richard J. Daley Library because I have been there many times and interested in how the occupancy of the two main public floors changes at the same crowded time (4 pm) from Monday to Friday. The project focuses on public areas of the first and second floors and excludes private rooms. Observations were made at approximately 4 pm to ensure consistent collection from Monday to Friday.
 - One observation represents one manual occupancy count of one floor. For each observation, I recorded the date, time, approximate occupancy count by my method, estimated noise level based on my hearing, and the optional notes when my counting accuracy was affected by high movement. Because this project was done by me alone, all observations were collected by me using the same general procedure.
 - To make my counting process more manageable, I divide each floor into sections, count the occupants in each section, and calculate the sum to estimate the total occupancy of each floor. Each occupant was counted as 1, and a fully occupied four-seat table was counted as 4 to simplify the count.
 - The collection provides the variation across location (first and second floor), date, and observations collected from Mondays to Fridays. I know the design has many limitations: the private room is inaccessible, and observations were made only at approximately 4 pm because that is the only time I don't have any classes throughout the week. Therefore, the data doesn't represent library occupancy for the entire day. My manual counting process may also miss or double-count occupants who enter, leave, or move between sections. In addition, the noise level measurement is based on my personal feeling rather than an objective sound measurement.
@@ -62,25 +62,28 @@
 
 ### Sketch 01
 ![Sketch 01](sketches/sketch01.png)
-This sketch compares occupancy between the first and second floors across the five collection days. Three attributes used are date, floor, and occupancy_count. Marks are bars, height representing occupancy, and horizontal position representing date and floor. This design makes it easy to compare the two floors but hard to show patterns across the five days.
+- This sketch compares occupancy between the first and second floors across the five collection days. Three attributes used are date, floor, and occupancy_count. Marks are bars, height representing occupancy, and horizontal position representing date and floor. This design makes it easy to compare the two floors but hard to show patterns across the five days.
 
 ### Sketch 02
 ![Sketch 02](sketches/sketch02.png)
-This sketch compares the occupancy patterns of the first and second floors across the five collection days. Three attributes used are date, floor, and occupancy_count. Marks are points and lines, which show how occupancy changes over time. This design makes the temporal patterns of both floors easy to follow. 
+- This sketch compares the occupancy patterns of the first and second floors across the five collection days. Three attributes used are date, floor, and occupancy_count. Marks are points and lines, which show how occupancy changes over time. This design makes the temporal patterns of both floors easy to follow. However, the first floor observations are clustered because of the large difference in occupancy scale between the first and second floors. 
 
 ### Sketch 03
 ![Sketch 03](sketches/sketch03.png)
-This sketch examines the relationship between occupancy and noise level. Three attributes used are floor, occupancy_count, and noise_level. Marks are points that represent the relationship between occupancy and noise level. This design makes the relationship easier to inspect, but the first floor observations are clustered because of the large difference in occupancy scale between the first and second floors. 
+- This sketch examines the relationship between occupancy and noise level. Three attributes used are floor, occupancy_count, and noise_level. Marks are points that represent the relationship between occupancy and noise level. This design makes the relationship easier to inspect, but the exact occupancy difference between the two floors on each day is less direct than in Sketch 01.
 
 ### Refined 01
 ![Refined 01](sketches/refined01.png)
-This sketch is an improved version of sketch 02, separating the two floors into different charts. Three attributes still used are date, floor, and occupancy_count. The separation makes the occupancy pattern of each floor easier to see. 
+- This sketch is an improved version of sketch 02, separating the two floors into different charts. Three attributes still used are date, floor, and occupancy_count. Marks are points and lines, which show how occupancy changes over time. The separation makes the occupancy pattern of each floor easier to see. 
 
 ### Refined 02
 ![Refined 02](sketches/refined02.png)
-This sketch is an improved version of sketch 03, separating the two floors into different charts and using a more appropriate occupancy scale for each floor. Three attributes still used are floor, occupancy_count and noise_level. This makes it easier to see the relationship between occupancy and noise level on each floor.
+- This sketch is an improved version of sketch 03, separating the two floors into different charts and using a more appropriate occupancy scale for each floor. Three attributes still used are floor, occupancy_count, and noise_level. Marks are points that represent the relationship between occupancy and noise level. The separation and appropriate occupancy scale make it easier to see the relationship between occupancy and noise level on each floor.
 
 ## Task 6: Summarizing 
+- All three initial sketches show different advantages and disadvantages. Sketch 01 makes the occupancy difference between the two floors easier to compare, but it is less effective for showing the pattern of each floor separately. Sketch 02 shows the temporal changes more effectively, but using the same scale for both floors compresses the first-floor values because the second-floor occupancy is much higher. Sketch 03 focuses on the relationship between occupancy and noise level, but the large difference in occupancy between the two floors also makes it harder to conclude from the first-floor observations.
+- The refined sketches 01 and 02 improve the readability of sketches 02 and 03 by separating the two floors into different charts. Refined 01 makes the temporal pattern of each floor easier to observe, while refined 02 makes the relationship between occupancy and noise easier to inspect by using an appropriate scale for each floor. I think refined sketches are better suited to analytical tasks, even though they make comparisons between floors less immediate. 
+
 
 ## Task 7: Collaboration Process
 
